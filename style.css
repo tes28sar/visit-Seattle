@@ -1,6 +1,6 @@
 body{
     background-image:url(swheel.jpg);
-    background-size: 1240px; 
+    background-size: 1280px; 
     
      margin: 1;
     padding: 1;
@@ -10,28 +10,30 @@ body{
 
 
 
-    padding: 0;
-    margin: 0;
-}
+  
+
+    
+
 
 li{
     list-style: none;
 }
 
 header {
-    background-color: red    height: 100px;
+    background-color: skyblue;   
+    height: 100px;
 }
 
 h1{
     float:left;
     margin-left: 20px;
     margin-right: 50px;
-    color: red;
+    color: black;
     text-shadow: 5px 5px 5px white;
 }
 
 nav li{
-    display: border;-
+    border: gray 1px solid;
     margin-top: 30px;
     margin-right: 20px;
 }
@@ -57,8 +59,8 @@ main {
     width: 960px;
     margin: 30px auto;
     min-height: 700px;
-
 }
+    
 #hero{
     width: 960px;
     height: 600px;
@@ -96,8 +98,8 @@ main p{
 
 footer{
     text-align:center;
-    text-color: black;
-    background-color:gray
+    color: black;
+    background-color:gray;
     height: 50px;
     
 }
@@ -105,12 +107,7 @@ footer{
 footer p{
     padding-top: 50px;
 }
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
+
  
     
  

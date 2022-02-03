@@ -1,21 +1,39 @@
-console.log('Hello World');
+console.log('hello seattle ');
 
-let city = 'seattle'; 
-let age = 171; 
+// let name = 'hello seattle'); 
+function displayImage(){
+    let output = "";
+    let rating = prompt('four')
+    for(let i =0; i < rating; i++){
+        console.log("this is the output ", output)
+        output = output + "<li><img src='needle.jpg'></li>"
+    } 
+    return document.write(output);
+}
+// for(let i = 0; i< 2; 1++){
+    // if(i ===3) break; 
+// console.log('hello seattle');
 
-console.log(city);
-console.log(age);
 
-let rating = 4.5;
-let isFun = true; 
 
-console.log(rating);
+
+
+
+// let age = 171; 
+
+
+
+
+// let rating = 4.5;
+// let isFun = true; 
+
+// console.log(rating);
 
 // let name = prompt('what is the city name?');/ 
 // console.log(name)
 
-function hello(){
-    let name= prompt('what is the city name?')
+function hi(){
+    let name = prompt('what is the city name?')
 if(name.toUpperCase()=== "SEATTLE"){
     alert("welcome")
 }else{
@@ -24,5 +42,36 @@ if(name.toUpperCase()=== "SEATTLE"){
 }; 
 
 
-console.log(name)
-hello(); 
+//  console.log(name)
+hi(); 
+
+function question(){ 
+    let x = prompt('what is a famous landmark in seattle? ')
+    if(x.toUpperCase()=== "SPACENEEDLE"){
+        alert("you got it!")
+    }else{
+        alert("answer is Spaceneedle") 
+    } 
+    
+}; 
+
+// console.log(name)/ 
+question(); 
+
+function age(){
+    let guess = 0;
+    while(guess < 4){
+        let guessAge = prompt ('how old is seattle');
+        if(guessAge === '171'){return guessAge}
+        else if (guessAge !== '171')
+{
+    alert('try again');
+    guess++;
+}
+    
+    
+    }
+
+}
+age();
+
