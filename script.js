@@ -75,3 +75,17 @@ function age(){
 }
 age();
 
+
+function famous(){
+    let answer = 0;
+    while(answer < 2){
+        let answerFamous = prompt('name a famous story from seattle');
+        if(answerFamous === 'bigfoot'){ return answerFamous}
+        else if (answerFamous !== 'big foot') 
+       
+        {
+    alert('try again');
+    answer++;}
+        }
+} 
+famous();
