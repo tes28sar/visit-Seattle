@@ -1,6 +1,6 @@
 body{
-    background-image:url(swheel.jpg);
-    background-size: 1280px; 
+    background-image:url(needle.jpg);
+    background-size: 1000px; 
     
      margin: 1;
     padding: 1;
@@ -20,7 +20,7 @@ li{
 }
 
 header {
-    background-color: skyblue;   
+    background-color: salmon;   
     height: 100px;
 }
 
@@ -40,7 +40,7 @@ nav li{
 
 nav  a {
     color: black;
-    text-decoration: none;
+    text-decoration: darkgoldenrod;
     font-size: 20px;
     font-weight: 600;
     cursor:blink; 
@@ -91,7 +91,7 @@ main li:last-child{
 
 main p{
     
-    float:right;font-size: 20px;
+    float:center;font-size: 20px;
     margin-top: 0; margin-right: 1; margin-left: 1;
     text-decoration: none;
 }
@@ -99,13 +99,13 @@ main p{
 footer{
     text-align:center;
     color: black;
-    background-color:gray;
-    height: 50px;
+    background-color:sienna;
+    height: 
     
 }
 
 footer p{
-    padding-top: 50px;
+    padding-top: 
 }
 
  

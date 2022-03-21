@@ -1,4 +1,10 @@
-console.log('hello seattle ');
+
+
+function greet(){
+console.log('hello seattle '); 
+} 
+
+greet();
 
 // let name = 'hello seattle'); 
 function displayImage(){
@@ -11,8 +17,8 @@ function displayImage(){
     return document.write(output);
 }
 // for(let i = 0; i< 2; 1++){
-    // if(i ===3) break; 
-// console.log('hello seattle');
+    //  if(i ===3) break; 
+//  console.log('i');
 
 
 
@@ -88,4 +94,6 @@ function famous(){
     answer++;}
         }
 } 
+
+}
 famous();
